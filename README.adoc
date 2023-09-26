@@ -1,0 +1,13 @@
+= Demo Java / Loki / Grafana
+
+== Overview
+
+Demo for testing :
+
+* Java
+* Loki with Logback (_https://github.com/loki4j/loki-logback-appender[loki-logback-appender]_)
+* Grafana
+
+== References
+
+* https://piotrminkowski.com/2023/07/05/logging-in-spring-boot-with-loki/

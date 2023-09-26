@@ -8,6 +8,22 @@ Demo for testing :
 * Loki with Logback (_https://github.com/loki4j/loki-logback-appender[loki-logback-appender]_)
 * Grafana
 
+== Run the demo
+
+=== Start Loki and Grafana instances
+
+With Docker :
+
+[source,bash]
+----
+docker compose -d up
+----
+
+=== Generate logs with Java
+
+Execute `com.example.Demo`.
+
 == References
 
+* https://grafana.com/docs/loki/latest/get-started/overview/[Loki overview]
 * https://piotrminkowski.com/2023/07/05/logging-in-spring-boot-with-loki/

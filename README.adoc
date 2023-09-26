@@ -19,11 +19,17 @@ With Docker :
 docker compose -d up
 ----
 
+Open Grafana at : http://localhost:3000/
+
 === Generate logs with Java
 
 Execute `com.example.Demo`.
 
 == References
 
-* https://grafana.com/docs/loki/latest/get-started/overview/[Loki overview]
+* https://grafana.com/docs/loki/latest/[Grafana Loki documentation]
+** https://grafana.com/docs/loki/latest/get-started/[Get started]
+** https://grafana.com/docs/loki/latest/get-started/overview/[Loki overview]
+** https://grafana.com/docs/loki/latest/query/[LogQL: Log query language]
+** https://grafana.com/docs/loki/latest/query/logcli/[LogCLI]
 * https://piotrminkowski.com/2023/07/05/logging-in-spring-boot-with-loki/
